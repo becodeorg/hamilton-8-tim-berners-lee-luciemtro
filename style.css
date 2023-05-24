@@ -6,49 +6,60 @@
     padding: 0;
     line-height: 30px;
     font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+
 }
 body{
     background: #e6e6e6;
     width: 100%;
     height: 100vh;
-    margin: 5% 25%;
+    margin: 5% 30%;
+    color: #6e6e6e;
 }
 header,
 nav,
 main{
     background: white;
-    width: 50%;
+    width: 40%;
     margin-bottom: 2%;
     border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.219);
 }
-
 header{
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2%;
+    padding: 1% 2%;
 }
 header img{
     border-radius: 50%;
     border: solid 4px #e6e6e6;
     margin-bottom: 30px;
+    width: 180px;
 }
-
 header h1,
 header h2{
     padding-bottom: 3%;
 }
-.see-for-self{
-    padding: 2%;
-    background: rgb(228, 110, 110);
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
+header h2{
+    font-weight:600;
 }
 h1{
     color :rgb(228, 110, 110);
     font-weight: 900;
+}
+strong{
+    font-weight: 900;
+}
+.see-for-self{
+    padding: 1% 2%;
+    background: rgb(228, 110, 110);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
 }
 nav{
     display: flex;
@@ -64,35 +75,46 @@ ul{
 li{
     margin: 0 30px;
 }
-
 nav a{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-weight: 400;
+    color: #c0c0c0;
+    font-size: 1.1rem;
+}
+a p{
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 main{
     padding: 2%;
 }
-
+span{
+    background-color: #d6d6d6;
+}
 figure{
     display:flex;
-    
+    font-size: 1.2rem;
 }
 main h2{
     text-align: center;
     padding: 2%;
+    font-weight: 600;
 }
 figure img{
     width: 100px;
+    margin:4%;
 }
 figure h3{
     text-align: center;
-    padding: 2%;
+    padding: 4%;
+    font-weight: 600;
 }
 figcaption{
-    padding: 2%;
-
+    padding: 1%;
+    font-weight: 300;
 }
 
